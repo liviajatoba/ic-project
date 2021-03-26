@@ -1,0 +1,39 @@
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  7
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 7-1ff648926f77
+Exec   : topoSet
+Date   : Mar 25 2021
+Time   : 21:24:31
+Host   : "max"
+PID    : 10533
+I/O    : uncollated
+Case   : /home/ljatoba/OpenFOAM/orientacoes/ic-sergio-lucas/mesh/caso-FeatureEdges
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create polyMesh for time = 0
+
+Reading topoSetDict
+
+Time = 0
+    mesh not changed.
+Created cellSet rotorCells
+    Applying source boxToCell
+    Adding cells with center within boxes 1((-0.106588 -0.002 -0.106584) (0.106602 0.0300003 0.106583))
+    cellSet rotorCells now size 230309
+Created cellZoneSet rotorCellsZone
+    Applying source setToCellZone
+    Adding all cells from cellSet rotorCells ...
+    cellZoneSet rotorCellsZone now size 230309
+End
+

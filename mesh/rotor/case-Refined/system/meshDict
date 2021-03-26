@@ -1,0 +1,79 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                |
+| \\      /  F ield         | cfMesh: A library for mesh generation          | 
+|  \\    /   O peration     |                                                |
+|   \\  /    A nd           | Author: Franjo Juretic                         | 
+|    \\/     M anipulation  | E-mail: franjo.juretic@c-fields.com            |
+\*---------------------------------------------------------------------------*/
+
+FoamFile
+{
+    version   2.0;
+    format    ascii;
+    class     dictionary;
+    location  "system";
+    object    meshDict;
+}
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+surfaceFile "geom.stl";
+
+maxCellSize 0.002;
+
+boundaryCellSize 0.002;
+
+localRefinement
+{
+    rotor
+    {
+        cellSize 0.001;
+    }
+    ami01
+    {
+        cellSize 0.002;
+    }
+
+}
+
+boundaryLayers
+{
+    nLayers 3;
+
+    thicknessRatio 1.1;
+
+}
+
+/*surfaceMeshRefinement
+{
+    rotor
+    {
+        additionalRefinementLevels  5;
+        surfaceFile "rotor.stl";
+        refinementThickness 0.001;
+    }
+}*/
+
+renameBoundary
+{
+
+    newPatchNames
+    {
+        "rotor.*"
+        {
+            newName     rotor;
+            type     wall;
+        }
+
+        "ami01.*"
+        {
+            newName     ami01;
+            type     wall;
+        }
+    }
+}
+
+
+
+
+// ************************************************************************* //

@@ -1,0 +1,25 @@
+1) Converter arquivos stl's em formato ascii usando o paraview
+2) editar os novos arquivos slts e incluir nome para as fronteiras (rotor e ami01)
+substituir solid ascii por solid rotor e solid ami01 e incluir rotor e ami01 apos o endsolid no final do arquivo
+3) criar um arquivo unico com os dois slts atraves do comando no terminal: cat rotor.stl ami.slt > geom.slt
+4) Executar o comandoL=: surfaceCheck geom.stl
+O comando ira gerar um relatorio na tela e alguns arquivos no diretorio do caso
+inspecionar o tamanho da geometria na linha Bounding Box e se a superficie nao tem Surface has no illegal triangles.
+5) redimensionar o tamanho da superficie se necessario usando o comando:
+surfaceTransformPoints -scale '(0.001 0.001 0.001)' geom.slt geom-t.stl
+Verificar as dimensoes novamente com o comando surfaceCheck
+6) Deletar o geom.stl anterior e renomear geom-t.stl para geom.slt
+7) gerar a malha usando o comando cartesianMesh ou script makeMesh
+8) avaliar a qualidada da malha e verificar se vale a pena utilizar o comando 
+surfaceFeatureEdges geom.stl geom1.stl -angle 90
+e gerar nova malha com o novo stl
+9) Gerar a cellZone usando o comando topoSet
+
+OBS:
+splitMeshRegions -makeCellZones -overwrite 
+extrudeToRegionMesh 
+singleCellMesh 
+surfaceSplitByPatch 
+surfaceSplitByTopology
+surfaceToPatch  
+

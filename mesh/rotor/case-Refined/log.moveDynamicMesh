@@ -1,0 +1,502 @@
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  7
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 7-1ff648926f77
+Exec   : moveDynamicMesh
+Date   : Mar 25 2021
+Time   : 21:32:25
+Host   : "max"
+PID    : 14345
+I/O    : uncollated
+Case   : /home/ljatoba/OpenFOAM/orientacoes/ic-sergio-lucas/mesh/caso-Refined
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create mesh for time = 0
+
+Selecting dynamicFvMesh dynamicMotionSolverFvMesh
+Selecting motion solver: solidBody
+Selecting solid-body motion function rotatingMotion
+Applying solid body motion to cellZone rotorCellsZone
+
+PIMPLE: No convergence criteria found
+
+
+PIMPLE: No corrector convergence criteria found
+        Calculations will do 2 corrections
+
+
+PIMPLE: Operating solver in transient mode with 2 outer correctors
+
+
+Time = 0.1
+PIMPLE: Iteration 1
+PIMPLE: Iteration 2
+    Point usage OK.
+    Upper triangular ordering OK.
+    Topological cell zip-up check OK.
+    Face vertices OK.
+    Face-face connectivity OK.
+    Mesh topology OK.
+    Boundary openness (7.47992e-18 -2.39197e-14 1.12589e-16) OK.
+    Max cell openness = 4.34271e-16 OK.
+    Max aspect ratio = 14.7613 OK.
+    Minimum face area = 1.18144e-08. Maximum face area = 6.02974e-06.  Face area magnitudes OK.
+    Min volume = 3.54278e-11. Max volume = 1.02444e-08.  Total volume = 0.00104941.  Cell volumes OK.
+    Mesh non-orthogonality Max: 79.4919 average: 4.53709
+   *Number of severely non-orthogonal (> 70 degrees) faces: 6.
+    Non-orthogonality check OK.
+    Face pyramids OK.
+    Max skewness = 3.20501 OK.
+    Mesh geometry OK.
+Mesh OK.
+ExecutionTime = 8.15 s  ClockTime = 8 s
+
+Time = 0.2
+PIMPLE: Iteration 1
+PIMPLE: Iteration 2
+    Point usage OK.
+    Upper triangular ordering OK.
+    Topological cell zip-up check OK.
+    Face vertices OK.
+    Face-face connectivity OK.
+    Mesh topology OK.
+    Boundary openness (1.25218e-16 -2.3807e-14 -1.86095e-17) OK.
+    Max cell openness = 3.27825e-16 OK.
+    Max aspect ratio = 19.2504 OK.
+    Minimum face area = 1.18144e-08. Maximum face area = 6.02974e-06.  Face area magnitudes OK.
+    Min volume = 3.54278e-11. Max volume = 1.02444e-08.  Total volume = 0.00104941.  Cell volumes OK.
+    Mesh non-orthogonality Max: 79.4919 average: 4.53709
+   *Number of severely non-orthogonal (> 70 degrees) faces: 6.
+    Non-orthogonality check OK.
+    Face pyramids OK.
+    Max skewness = 3.20501 OK.
+    Mesh geometry OK.
+Mesh OK.
+ExecutionTime = 13.95 s  ClockTime = 14 s
+
+Time = 0.3
+PIMPLE: Iteration 1
+PIMPLE: Iteration 2
+    Point usage OK.
+    Upper triangular ordering OK.
+    Topological cell zip-up check OK.
+    Face vertices OK.
+    Face-face connectivity OK.
+    Mesh topology OK.
+    Boundary openness (-1.68414e-16 -2.39692e-14 6.19154e-17) OK.
+    Max cell openness = 3.73576e-16 OK.
+    Max aspect ratio = 17.9713 OK.
+    Minimum face area = 1.18144e-08. Maximum face area = 6.02974e-06.  Face area magnitudes OK.
+    Min volume = 3.54278e-11. Max volume = 1.02444e-08.  Total volume = 0.00104941.  Cell volumes OK.
+    Mesh non-orthogonality Max: 79.4919 average: 4.53709
+   *Number of severely non-orthogonal (> 70 degrees) faces: 6.
+    Non-orthogonality check OK.
+    Face pyramids OK.
+    Max skewness = 3.20501 OK.
+    Mesh geometry OK.
+Mesh OK.
+ExecutionTime = 19.79 s  ClockTime = 19 s
+
+Time = 0.4
+PIMPLE: Iteration 1
+PIMPLE: Iteration 2
+    Point usage OK.
+    Upper triangular ordering OK.
+    Topological cell zip-up check OK.
+    Face vertices OK.
+    Face-face connectivity OK.
+    Mesh topology OK.
+    Boundary openness (4.35241e-17 -2.38113e-14 1.61652e-16) OK.
+    Max cell openness = 4.15942e-16 OK.
+    Max aspect ratio = 17.0479 OK.
+    Minimum face area = 1.18144e-08. Maximum face area = 6.02974e-06.  Face area magnitudes OK.
+    Min volume = 3.54278e-11. Max volume = 1.02444e-08.  Total volume = 0.00104941.  Cell volumes OK.
+    Mesh non-orthogonality Max: 79.4919 average: 4.53709
+   *Number of severely non-orthogonal (> 70 degrees) faces: 6.
+    Non-orthogonality check OK.
+    Face pyramids OK.
+    Max skewness = 3.20501 OK.
+    Mesh geometry OK.
+Mesh OK.
+ExecutionTime = 25.62 s  ClockTime = 25 s
+
+Time = 0.5
+PIMPLE: Iteration 1
+PIMPLE: Iteration 2
+    Point usage OK.
+    Upper triangular ordering OK.
+    Topological cell zip-up check OK.
+    Face vertices OK.
+    Face-face connectivity OK.
+    Mesh topology OK.
+    Boundary openness (2.67785e-18 -2.39674e-14 6.88372e-17) OK.
+    Max cell openness = 3.50689e-16 OK.
+    Max aspect ratio = 19.5686 OK.
+    Minimum face area = 1.18144e-08. Maximum face area = 6.02974e-06.  Face area magnitudes OK.
+    Min volume = 3.54278e-11. Max volume = 1.02444e-08.  Total volume = 0.00104941.  Cell volumes OK.
+    Mesh non-orthogonality Max: 79.4919 average: 4.53709
+   *Number of severely non-orthogonal (> 70 degrees) faces: 6.
+    Non-orthogonality check OK.
+    Face pyramids OK.
+    Max skewness = 3.20501 OK.
+    Mesh geometry OK.
+Mesh OK.
+ExecutionTime = 31.17 s  ClockTime = 31 s
+
+Time = 0.6
+PIMPLE: Iteration 1
+PIMPLE: Iteration 2
+    Point usage OK.
+    Upper triangular ordering OK.
+    Topological cell zip-up check OK.
+    Face vertices OK.
+    Face-face connectivity OK.
+    Mesh topology OK.
+    Boundary openness (-4.26951e-17 -2.38573e-14 4.49811e-17) OK.
+    Max cell openness = 4.74151e-16 OK.
+    Max aspect ratio = 14.7612 OK.
+    Minimum face area = 1.18144e-08. Maximum face area = 6.02974e-06.  Face area magnitudes OK.
+    Min volume = 3.54278e-11. Max volume = 1.02444e-08.  Total volume = 0.00104941.  Cell volumes OK.
+    Mesh non-orthogonality Max: 79.4919 average: 4.53709
+   *Number of severely non-orthogonal (> 70 degrees) faces: 6.
+    Non-orthogonality check OK.
+    Face pyramids OK.
+    Max skewness = 3.20501 OK.
+    Mesh geometry OK.
+Mesh OK.
+ExecutionTime = 36.92 s  ClockTime = 37 s
+
+Time = 0.7
+PIMPLE: Iteration 1
+PIMPLE: Iteration 2
+    Point usage OK.
+    Upper triangular ordering OK.
+    Topological cell zip-up check OK.
+    Face vertices OK.
+    Face-face connectivity OK.
+    Mesh topology OK.
+    Boundary openness (-7.35716e-17 -2.39886e-14 -5.68516e-18) OK.
+    Max cell openness = 3.25639e-16 OK.
+    Max aspect ratio = 19.2504 OK.
+    Minimum face area = 1.18144e-08. Maximum face area = 6.02974e-06.  Face area magnitudes OK.
+    Min volume = 3.54278e-11. Max volume = 1.02444e-08.  Total volume = 0.00104941.  Cell volumes OK.
+    Mesh non-orthogonality Max: 79.4919 average: 4.53709
+   *Number of severely non-orthogonal (> 70 degrees) faces: 6.
+    Non-orthogonality check OK.
+    Face pyramids OK.
+    Max skewness = 3.20501 OK.
+    Mesh geometry OK.
+Mesh OK.
+ExecutionTime = 42.61 s  ClockTime = 42 s
+
+Time = 0.8
+PIMPLE: Iteration 1
+PIMPLE: Iteration 2
+    Point usage OK.
+    Upper triangular ordering OK.
+    Topological cell zip-up check OK.
+    Face vertices OK.
+    Face-face connectivity OK.
+    Mesh topology OK.
+    Boundary openness (-5.06805e-17 -2.39825e-14 4.07935e-17) OK.
+    Max cell openness = 3.36681e-16 OK.
+    Max aspect ratio = 17.9712 OK.
+    Minimum face area = 1.18144e-08. Maximum face area = 6.02974e-06.  Face area magnitudes OK.
+    Min volume = 3.54278e-11. Max volume = 1.02444e-08.  Total volume = 0.00104941.  Cell volumes OK.
+    Mesh non-orthogonality Max: 79.4919 average: 4.53709
+   *Number of severely non-orthogonal (> 70 degrees) faces: 6.
+    Non-orthogonality check OK.
+    Face pyramids OK.
+    Max skewness = 3.20501 OK.
+    Mesh geometry OK.
+Mesh OK.
+ExecutionTime = 48.49 s  ClockTime = 48 s
+
+Time = 0.9
+PIMPLE: Iteration 1
+PIMPLE: Iteration 2
+    Point usage OK.
+    Upper triangular ordering OK.
+    Topological cell zip-up check OK.
+    Face vertices OK.
+    Face-face connectivity OK.
+    Mesh topology OK.
+    Boundary openness (-8.35176e-17 -2.40011e-14 1.71906e-16) OK.
+    Max cell openness = 3.41572e-16 OK.
+    Max aspect ratio = 17.0479 OK.
+    Minimum face area = 1.18144e-08. Maximum face area = 6.02974e-06.  Face area magnitudes OK.
+    Min volume = 3.54278e-11. Max volume = 1.02444e-08.  Total volume = 0.00104941.  Cell volumes OK.
+    Mesh non-orthogonality Max: 79.4919 average: 4.53709
+   *Number of severely non-orthogonal (> 70 degrees) faces: 6.
+    Non-orthogonality check OK.
+    Face pyramids OK.
+    Max skewness = 3.20501 OK.
+    Mesh geometry OK.
+Mesh OK.
+ExecutionTime = 54.17 s  ClockTime = 54 s
+
+Time = 1
+PIMPLE: Iteration 1
+PIMPLE: Iteration 2
+    Point usage OK.
+    Upper triangular ordering OK.
+    Topological cell zip-up check OK.
+    Face vertices OK.
+    Face-face connectivity OK.
+    Mesh topology OK.
+    Boundary openness (3.96412e-17 -2.39746e-14 1.96569e-16) OK.
+    Max cell openness = 3.24659e-16 OK.
+    Max aspect ratio = 19.5686 OK.
+    Minimum face area = 1.18144e-08. Maximum face area = 6.02974e-06.  Face area magnitudes OK.
+    Min volume = 3.54278e-11. Max volume = 1.02444e-08.  Total volume = 0.00104941.  Cell volumes OK.
+    Mesh non-orthogonality Max: 79.4919 average: 4.53709
+   *Number of severely non-orthogonal (> 70 degrees) faces: 6.
+    Non-orthogonality check OK.
+    Face pyramids OK.
+    Max skewness = 3.20501 OK.
+    Mesh geometry OK.
+Mesh OK.
+ExecutionTime = 60.11 s  ClockTime = 60 s
+
+Time = 1.1
+PIMPLE: Iteration 1
+PIMPLE: Iteration 2
+    Point usage OK.
+    Upper triangular ordering OK.
+    Topological cell zip-up check OK.
+    Face vertices OK.
+    Face-face connectivity OK.
+    Mesh topology OK.
+    Boundary openness (2.03225e-16 -2.38794e-14 8.9064e-17) OK.
+    Max cell openness = 3.38847e-16 OK.
+    Max aspect ratio = 14.7611 OK.
+    Minimum face area = 1.18144e-08. Maximum face area = 6.02974e-06.  Face area magnitudes OK.
+    Min volume = 3.54278e-11. Max volume = 1.02444e-08.  Total volume = 0.00104941.  Cell volumes OK.
+    Mesh non-orthogonality Max: 79.4919 average: 4.53709
+   *Number of severely non-orthogonal (> 70 degrees) faces: 6.
+    Non-orthogonality check OK.
+    Face pyramids OK.
+    Max skewness = 3.20501 OK.
+    Mesh geometry OK.
+Mesh OK.
+ExecutionTime = 65.79 s  ClockTime = 66 s
+
+Time = 1.2
+PIMPLE: Iteration 1
+PIMPLE: Iteration 2
+    Point usage OK.
+    Upper triangular ordering OK.
+    Topological cell zip-up check OK.
+    Face vertices OK.
+    Face-face connectivity OK.
+    Mesh topology OK.
+    Boundary openness (3.04974e-16 -2.38467e-14 1.15418e-17) OK.
+    Max cell openness = 3.6043e-16 OK.
+    Max aspect ratio = 19.2505 OK.
+    Minimum face area = 1.18144e-08. Maximum face area = 6.02974e-06.  Face area magnitudes OK.
+    Min volume = 3.54278e-11. Max volume = 1.02444e-08.  Total volume = 0.00104941.  Cell volumes OK.
+    Mesh non-orthogonality Max: 79.4919 average: 4.53709
+   *Number of severely non-orthogonal (> 70 degrees) faces: 6.
+    Non-orthogonality check OK.
+    Face pyramids OK.
+    Max skewness = 3.20501 OK.
+    Mesh geometry OK.
+Mesh OK.
+ExecutionTime = 71.32 s  ClockTime = 71 s
+
+Time = 1.3
+PIMPLE: Iteration 1
+PIMPLE: Iteration 2
+    Point usage OK.
+    Upper triangular ordering OK.
+    Topological cell zip-up check OK.
+    Face vertices OK.
+    Face-face connectivity OK.
+    Mesh topology OK.
+    Boundary openness (2.55343e-17 -2.39886e-14 -8.66389e-17) OK.
+    Max cell openness = 3.3547e-16 OK.
+    Max aspect ratio = 17.9712 OK.
+    Minimum face area = 1.18144e-08. Maximum face area = 6.02974e-06.  Face area magnitudes OK.
+    Min volume = 3.54278e-11. Max volume = 1.02444e-08.  Total volume = 0.00104941.  Cell volumes OK.
+    Mesh non-orthogonality Max: 79.4919 average: 4.53709
+   *Number of severely non-orthogonal (> 70 degrees) faces: 6.
+    Non-orthogonality check OK.
+    Face pyramids OK.
+    Max skewness = 3.20501 OK.
+    Mesh geometry OK.
+Mesh OK.
+ExecutionTime = 76.9 s  ClockTime = 77 s
+
+Time = 1.4
+PIMPLE: Iteration 1
+PIMPLE: Iteration 2
+    Point usage OK.
+    Upper triangular ordering OK.
+    Topological cell zip-up check OK.
+    Face vertices OK.
+    Face-face connectivity OK.
+    Mesh topology OK.
+    Boundary openness (1.0332e-16 -2.38881e-14 1.19137e-16) OK.
+    Max cell openness = 3.74782e-16 OK.
+    Max aspect ratio = 17.048 OK.
+    Minimum face area = 1.18144e-08. Maximum face area = 6.02974e-06.  Face area magnitudes OK.
+    Min volume = 3.54278e-11. Max volume = 1.02444e-08.  Total volume = 0.00104941.  Cell volumes OK.
+    Mesh non-orthogonality Max: 79.4919 average: 4.53709
+   *Number of severely non-orthogonal (> 70 degrees) faces: 6.
+    Non-orthogonality check OK.
+    Face pyramids OK.
+    Max skewness = 3.20501 OK.
+    Mesh geometry OK.
+Mesh OK.
+ExecutionTime = 82.62 s  ClockTime = 82 s
+
+Time = 1.5
+PIMPLE: Iteration 1
+PIMPLE: Iteration 2
+    Point usage OK.
+    Upper triangular ordering OK.
+    Topological cell zip-up check OK.
+    Face vertices OK.
+    Face-face connectivity OK.
+    Mesh topology OK.
+    Boundary openness (2.03877e-17 -2.37764e-14 2.31342e-16) OK.
+    Max cell openness = 3.32509e-16 OK.
+    Max aspect ratio = 19.5686 OK.
+    Minimum face area = 1.18144e-08. Maximum face area = 6.02974e-06.  Face area magnitudes OK.
+    Min volume = 3.54278e-11. Max volume = 1.02444e-08.  Total volume = 0.00104941.  Cell volumes OK.
+    Mesh non-orthogonality Max: 79.4919 average: 4.53709
+   *Number of severely non-orthogonal (> 70 degrees) faces: 6.
+    Non-orthogonality check OK.
+    Face pyramids OK.
+    Max skewness = 3.20501 OK.
+    Mesh geometry OK.
+Mesh OK.
+ExecutionTime = 88.15 s  ClockTime = 88 s
+
+Time = 1.6
+PIMPLE: Iteration 1
+PIMPLE: Iteration 2
+    Point usage OK.
+    Upper triangular ordering OK.
+    Topological cell zip-up check OK.
+    Face vertices OK.
+    Face-face connectivity OK.
+    Mesh topology OK.
+    Boundary openness (2.19265e-16 -2.38442e-14 8.28734e-17) OK.
+    Max cell openness = 3.89131e-16 OK.
+    Max aspect ratio = 14.761 OK.
+    Minimum face area = 1.18144e-08. Maximum face area = 6.02974e-06.  Face area magnitudes OK.
+    Min volume = 3.54278e-11. Max volume = 1.02444e-08.  Total volume = 0.00104941.  Cell volumes OK.
+    Mesh non-orthogonality Max: 79.4919 average: 4.53709
+   *Number of severely non-orthogonal (> 70 degrees) faces: 6.
+    Non-orthogonality check OK.
+    Face pyramids OK.
+    Max skewness = 3.20501 OK.
+    Mesh geometry OK.
+Mesh OK.
+ExecutionTime = 93.59 s  ClockTime = 93 s
+
+Time = 1.7
+PIMPLE: Iteration 1
+PIMPLE: Iteration 2
+    Point usage OK.
+    Upper triangular ordering OK.
+    Topological cell zip-up check OK.
+    Face vertices OK.
+    Face-face connectivity OK.
+    Mesh topology OK.
+    Boundary openness (-5.30695e-17 -2.39284e-14 -1.72458e-17) OK.
+    Max cell openness = 3.31892e-16 OK.
+    Max aspect ratio = 19.2505 OK.
+    Minimum face area = 1.18144e-08. Maximum face area = 6.02974e-06.  Face area magnitudes OK.
+    Min volume = 3.54278e-11. Max volume = 1.02444e-08.  Total volume = 0.00104941.  Cell volumes OK.
+    Mesh non-orthogonality Max: 79.4919 average: 4.53709
+   *Number of severely non-orthogonal (> 70 degrees) faces: 6.
+    Non-orthogonality check OK.
+    Face pyramids OK.
+    Max skewness = 3.20501 OK.
+    Mesh geometry OK.
+Mesh OK.
+ExecutionTime = 99.22 s  ClockTime = 99 s
+
+Time = 1.8
+PIMPLE: Iteration 1
+PIMPLE: Iteration 2
+    Point usage OK.
+    Upper triangular ordering OK.
+    Topological cell zip-up check OK.
+    Face vertices OK.
+    Face-face connectivity OK.
+    Mesh topology OK.
+    Boundary openness (-2.31891e-16 -2.40035e-14 -2.29031e-17) OK.
+    Max cell openness = 3.37303e-16 OK.
+    Max aspect ratio = 17.9711 OK.
+    Minimum face area = 1.18144e-08. Maximum face area = 6.02974e-06.  Face area magnitudes OK.
+    Min volume = 3.54278e-11. Max volume = 1.02444e-08.  Total volume = 0.00104941.  Cell volumes OK.
+    Mesh non-orthogonality Max: 79.4919 average: 4.53709
+   *Number of severely non-orthogonal (> 70 degrees) faces: 6.
+    Non-orthogonality check OK.
+    Face pyramids OK.
+    Max skewness = 3.20501 OK.
+    Mesh geometry OK.
+Mesh OK.
+ExecutionTime = 104.92 s  ClockTime = 105 s
+
+Time = 1.9
+PIMPLE: Iteration 1
+PIMPLE: Iteration 2
+    Point usage OK.
+    Upper triangular ordering OK.
+    Topological cell zip-up check OK.
+    Face vertices OK.
+    Face-face connectivity OK.
+    Mesh topology OK.
+    Boundary openness (3.25911e-18 -2.38169e-14 2.4864e-16) OK.
+    Max cell openness = 3.84248e-16 OK.
+    Max aspect ratio = 17.0481 OK.
+    Minimum face area = 1.18144e-08. Maximum face area = 6.02974e-06.  Face area magnitudes OK.
+    Min volume = 3.54278e-11. Max volume = 1.02444e-08.  Total volume = 0.00104941.  Cell volumes OK.
+    Mesh non-orthogonality Max: 79.4919 average: 4.53709
+   *Number of severely non-orthogonal (> 70 degrees) faces: 6.
+    Non-orthogonality check OK.
+    Face pyramids OK.
+    Max skewness = 3.20501 OK.
+    Mesh geometry OK.
+Mesh OK.
+ExecutionTime = 110.62 s  ClockTime = 110 s
+
+Time = 2
+PIMPLE: Iteration 1
+PIMPLE: Iteration 2
+    Point usage OK.
+    Upper triangular ordering OK.
+    Topological cell zip-up check OK.
+    Face vertices OK.
+    Face-face connectivity OK.
+    Mesh topology OK.
+    Boundary openness (3.80029e-17 -2.39176e-14 2.67117e-16) OK.
+    Max cell openness = 3.32439e-16 OK.
+    Max aspect ratio = 19.5685 OK.
+    Minimum face area = 1.18144e-08. Maximum face area = 6.02974e-06.  Face area magnitudes OK.
+    Min volume = 3.54278e-11. Max volume = 1.02444e-08.  Total volume = 0.00104941.  Cell volumes OK.
+    Mesh non-orthogonality Max: 79.4919 average: 4.53709
+   *Number of severely non-orthogonal (> 70 degrees) faces: 6.
+    Non-orthogonality check OK.
+    Face pyramids OK.
+    Max skewness = 3.20501 OK.
+    Mesh geometry OK.
+Mesh OK.
+ExecutionTime = 116.33 s  ClockTime = 116 s
+
+End
+
